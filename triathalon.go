@@ -41,4 +41,3 @@ func Train(n int, pre int, sports [][]int) int {
 	return ans
 
 }
-cbksejdcksd 
