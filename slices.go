@@ -1,3 +1,5 @@
+// Create a function that takes a slice of integers and returns the maximum value from the slice.
+
 package main
 
 import (
@@ -20,5 +22,4 @@ func main() {
 	slice = append(slice, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,1343,424,42345,4485)
 	fmt.Println("using funciton ",max(slice...))
 	fmt.Println("using method ",slices.Max(slice))
-
 }
